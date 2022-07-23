@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(196, 164, 84);
+}
+header{
+    display: inline-block;
+    width: 80%;
+    padding: 25px 80px;
+    background-color: orange;
+    position: relative;
+}
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(177, 123, 227);
+}
+nav ul li a:hover{
+    color: mediumspringgreen;
+}
+.img{
+    text-align: right;
+    border: 20px;
+    border-style: double;
+    border-color: chartreuse;
+}
+.menu{
+   background-color: grey;
+
+}
+.menu ul{
+text-align: right;
+font-family: fantasy;
+
+
+}
+main{
+    display: flex;
+}
+.aside{
+    background-color: cornflowerblue;
+    text-align: left;
+    margin: 60px 60px 50px 20px;
+}
+.lado{
+    display: flex;
+    margin:10%
+}
+p:first-child {
+    color: red;
+    border-bottom: 10px solid rgb(205, 142, 48);
+  }
+  
+  p:last-child {
+    border-bottom: 5px dotted;
+    font-size: 30px;
+    background-color: bisque;
+    color: black;
+    font-weight: 900;
+  }
+  
+  p:only-child {
+    color: green;
+  }
+  section:first-child {
+    color: red;
+    border-bottom: 10px solid rgb(205, 142, 48);
+  }
+  
+  section:last-child {
+    border-bottom: 5px dotted;
+    font-size: 30px;
+    background-color: bisque;
+    color: black;
+    font-weight: 900;
+  }
+  
+  section:only-child {
+    color: green;
+  }
+p::first-line{
+    color: royalblue;
+    font-size: 20px;
+}p::first-letter{
+    color: rgb(179, 49, 179);
+    background-color: aliceblue;
+    font-size: 30px;
+    font-weight: 900;
+}
+p::before {
+    color: rgb(132, 67, 161);
+     content: "Carol"; 
+    }
+    p::after { 
+        color: rgb(132, 67, 161);
+        content: "Carol";
+ }
+    p::selection { 
+        color: rgb(50, 155, 66);
+        background-color: black;
+    
+}
+footer{
+    display: flex;
+    
+}
+#yop{
+    width: 8%;
+    text-align: right;
+    border: 10px;
+    border-style: double;
+    border-color: red;
+}
+@media screen and (max-width:600){
+    section{
+        background-color: rgb(109, 176, 109);
+    }
+}
+    
